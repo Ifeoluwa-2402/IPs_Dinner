@@ -1,3 +1,3 @@
-import  { menuArray } from '/data.js';
+import  { menuArray } from './data.js';
 
-console.log(menuArray)
+console.log(menuArray);
