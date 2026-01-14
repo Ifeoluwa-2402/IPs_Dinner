@@ -42,7 +42,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 .item-name{
     font-size: 1.2rem;
@@ -62,4 +62,9 @@ button{
     border: 2px solid rgb(222, 222, 222);
     background: none;
     cursor: pointer;
+    margin-right: 30px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
 }

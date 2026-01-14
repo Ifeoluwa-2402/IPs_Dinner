@@ -15,5 +15,7 @@ menuArray.forEach(function(items) {
         <button>
             <i class="fa-solid fa-plus"></i>
         </button>
-    </div>`
+    </div>
+    <hr>
+    `
 });
