@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Inter, sans-serif;
 }
 body{
     background: rgb(245, 245, 245)
 }
-div{
+.container{
     width: 50%;
     height: 100vh;
     margin: 0 auto;
@@ -23,4 +23,43 @@ h1{
 }
 p{
     padding: 10px 0px 40px 40px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+.item-container{
+    display: flex;
+    gap: 30px;
+}
+.item-emoji{
+    font-size: 100px;
+}
+.item-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.item-name{
+    font-size: 1.2rem;
+}
+.item-ingredients{
+    color: rgb(150, 150, 150);
+    font-size: 0.9rem;;
+}
+.item-price{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(222, 222, 222);
+    background: none;
+    cursor: pointer;
 }
